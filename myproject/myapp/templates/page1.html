@@ -1,0 +1,18 @@
+{% load static %}
+<DOCTYPE html>
+<html>
+<head>
+    <title>Page 1</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <style>
+        /* Изменение шрифтов и размеров текста */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Page 1</h1>
+        <p>{{ flatpage.content }}</p>
+    </div>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
